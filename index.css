@@ -3,13 +3,15 @@
   --white-color: #fff;
   scroll-behavior: smooth;
   background-color: gray;
+
 }
 header{
 	background-color: #202A44;
 }
 
 body {
-  background: gray;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .nav-item .nav-link {
@@ -32,7 +34,7 @@ body {
   font-size: 2rem;
   cursor: pointer;
 }
-.home{
+.landing{
   width: 100%;
   height: 80vh;
   display: flex;
@@ -92,6 +94,10 @@ body {
 .btn-2{
     background-color: orange;
 }
+#skills i {
+  height: 100px;
+  width: 100px;
+}
 .projects{
   padding-bottom: 60px;
 }
@@ -99,6 +105,7 @@ body {
 #projects img{
   height: 300px;
   object-fit: cover;
+
 }
 
 

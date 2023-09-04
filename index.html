@@ -11,7 +11,9 @@
   <!-----Bootstrap Link----->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-  <!----Fontawesome-----> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
   
 
 
@@ -30,10 +32,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#home">HOME</a>
+                <a class="nav-link px-lg-4 rounded" href="#landing">HOME</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#projects">PROJECTS</a>
+                <a class="nav-link px-lg-4 rounded" href="#project">PROJECTS</a>
               </li>
                  <li class="nav-item mx-2">
                 <a class="nav-link px-lg-4 rounded" href="#tools">TOOLS</a>
@@ -51,11 +53,11 @@
     </header>
 
     <!----Landing Page---->
-    <section class="home mt-5" id="home">
+    <section class="home mt-5" id="landing">
       <div class="container" >
         <div class="row">
           <div class="col-lg-6 "> 
-          <div class="home-container" href="#home">
+          <div class="home-container" href="#landing">
             <div class="home-content mr-auto">
             <h5 class="heading-sm">Hi I'm</h5>
             <h2 class="heading-lg">Nel <span> Cabigo </span></h2>
@@ -80,9 +82,9 @@
 
    <!--  Projects Section -->
   
-      <section id="projects"class="container py-5 " >
+      <section id="project"class="container py-5 " >
       <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center justify-content-center" href="#projects">
+        <div class="col-12 d-flex flex-column text-center justify-content-center" href="#project">
           <h2>PROJECTS</h2>
           <h5 class="text-secondary fs-md fw-normal py-2 fst-italic">Collections of past projects from Zuitt Bootcamp</h5>
         </div>
@@ -137,32 +139,51 @@
       </div>      
     </section>
 <!---End of Section----->
+      <!----Tools Section----->
 
-<!----Tools---->
-<section id="tools" class="tools mb-5 " href="#tools">
-  
-                <!-- Other Tools Section Start -->
-                <h3 class="text-center mt-3"> Tools</h3>
+              <section id="tools" href="#tools">
+              <h1 class="text-center mt-5 mb-5">TOOLS</h1>
+              <div class=" d-flex justify-content-center">
 
-                <div id="other-tools" class="d-flex flex-md-column">
-                    <div  class="d-md-flex justify-content-center"id="tools-1">
-                        <img width="150" src="images/logo-mongodb.png"/>
-                        <img width="150" src="images/logo-nodejs.png"/>
-                        <img width="150" src="images/logo-expressjs.png"/>
-                        <img width="150" src="images/logo-react.png"/>
-                        <img width="150" src="images/logo-heroku.png"/>
+          <div id="tools" class=" d-sm-inline-block">
+            <h5 class="text-center">FRONT END</h5>
+                  <div  class="d-md-flex col-md-4">
+                                <img width="150" src="images/logo-html5.png"/>
+                                <img width="150" src="images/logo-css3.png"/>
+                            </div>
+                            <div  class="d-md-flex col-md-4">
+                                <img width="150" src="images/logo-bootstrap.png"/>
+                                <img width="150" src="images/logo-javascript.png"/>
+                              </div>
                     </div>
-                    <div class="d-md-flex justify-content-center" id="tools-2">
-                        <img width="150" src="images/logo-git.png"/>
-                        <img width="150" src="images/logo-sublime-text-3.png"/>
-                        <img width="150" src="images/logo-postman.png"/>
-                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                   <div id="tools" class=" d-sm-inline-block">
+                     <h5 class="text-center">MERN</h5>
+                  <div  class="d-md-flex col-md-4">
+                                <img width="150" src="images/logo-mongodb.png"/>
+                                <img width="150" src="images/logo-nodejs.png"/>
+                              </div>
+                              <div  class="d-md-flex">
+                                <img width="150" src="images/logo-expressjs.png"/>
+                                <img width="150" src="images/logo-react.png"/>
+                              </div>
+
                     </div>
-                </div>
-                <!-- Other Tools Section End -->
-                
-            </div>
-        </section>
+                    <div id="tools" class=" d-sm-inline-block">
+                       <h5 class="text-center">Other Tools</h5>
+                  <div  class="d-md-flex col-md-4">
+                                <img width="150" src="images/logo-heroku.png"/>
+                                <img width="150" src="images/logo-git.png"/>
+                              </div>
+                              <div  class="d-md-flex">
+
+                                <img width="150" src="images/logo-postman.png"/>
+                                <img width="150" src="images/logo-sublime-text-3.png"/>
+                              </div>
+                          
+                    </div>
+      
+              </div>
+            </section>
 
 
 
@@ -201,31 +222,32 @@
 
 
           </div>
-          <!----contact forn-->
-<div class="form-box ml-lg-6">
-  <h1>Website Contact Form</h1>
-  <p> Feel free to contact me for inquiries</p>
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input class="form-control" id="name" type="text" name="Name">
-    </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input class="form-control" id="email" type="email" name="Email">
-    </div>
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea class="form-control" id="message" name="Message"></textarea>
-    </div>
-    <input class="btn btn-primary  " type="submit" value="Submit" />
-    </div>
-  </form>
-</div>
+          <!----contact form-->
+              <div class="form-box ml-lg-6">
+                <h1>Website Contact Form</h1>
+                <p> Feel free to contact me for inquiries</p>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message"></textarea>
+                  </div>
+                  <input class="btn btn-primary  " type="submit" value="Submit" />
+                  </div>
+                </form>
+              </div>
 
-</section>
+              </section>
+             
 
-<!---Bootstrap 4.6 JS Script----->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
-</html>
+              <!---Bootstrap 4.6 JS Script----->
+              <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+              </body>
+              </html>
