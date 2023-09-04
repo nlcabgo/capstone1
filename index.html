@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Capstone Development Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capstone Development Project</title>
 
-	<!---External CSS---->
-	<link rel="stylesheet" href="index.css">
+  <!---External CSS---->
+  <link rel="stylesheet" href="index.css">
 
-	<!-----Bootstrap Link----->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-----Bootstrap Link----->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<!----Fontawesome----->	
-	
+  <!----Fontawesome-----> 
+  
 
 
 </head>
 <body>
 
-	 <body>
-    <!-- Header & Navbar -->
+   <body>
+    <!-- Navbar  -->
     <header class=" fixed-top">
       <nav class=" d-flex container-xxl navbar navbar-expand-lg py-3">
         <div class="container-fluid">
@@ -30,38 +30,199 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#home">HOME</a>
+                <a class="nav-link px-lg-4 rounded" href="#home">HOME</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#projects">PROJECTS</a>
+                <a class="nav-link px-lg-4 rounded" href="#projects">PROJECTS</a>
               </li>
                  <li class="nav-item mx-2">
-                <a class="nav-link" href="#tools">TOOLS</a>
+                <a class="nav-link px-lg-4 rounded" href="#tools">TOOLS</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#contact">CONTACT</a>
+                <a class="nav-link px-lg-4 rounded" href="#contact">CONTACT</a>
               </li>
           </div>
            <form class="form-inline ml-auto">
-    		<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-    		<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-  			</form>
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
         </div>
       </nav>
     </header>
 
     <!----Landing Page---->
-    <section class="landing d-flex align-items-center justify-content-center">
-    	<div class="text-center">
-    	<h1 class=" text-dark ">Arnel Cabigo</h1>
-        <h2 class="display-3 text-dark fw-bold">Web Developer </h2>
-        <a href="#projects" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">See More</a>
+    <section class="home mt-5" id="home">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-6 "> 
+          <div class="home-container" href="#home">
+            <div class="home-content mr-auto">
+            <h5 class="heading-sm">Hi I'm</h5>
+            <h2 class="heading-lg">Nel <span> Cabigo </span></h2>
+             <h5 class="heading-md">Programmer | Web Developer</h5>
+             <p class="description ml-auto"> I am a web developer based in Bacolod City, Negros Occidental.</p>
+             <a href="#projects" class="btn-home btn-2 text-white">See More</a>
+             <a href="#contact" class="btn-home text-white">Hire Me</a>
+
+          </div>
+        </div>
       </div>
+      <div class="col-lg-6 ml-auto mt-5 mb-5">
+        <img src="images/img1.png" class=" 
+        mt-5 mt-md-3 rounded-circle" alt="home-img">
+        
+      </div>
+
+      </div>
+      </div>
+
     </section>
-   
+
+   <!--  Projects Section -->
+  
+      <section id="projects"class="container py-5 " >
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center" href="#projects">
+          <h2>PROJECTS</h2>
+          <h5 class="text-secondary fs-md fw-normal py-2 fst-italic">Collections of past projects from Zuitt Bootcamp</h5>
+        </div>
+        <div class="row mt-5 justify-content-center align-items-center">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card mt-4">
+              <img  class="img-fluid" alt="projects-img" src="images/project-image1.png">
+              <div class="card-body text-center">
+                <h6 class="card-title">Activity Sample Website</h6>
+                <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img class="img-fluid" alt="project-img" src="images/project-image2.png" >
+              <div class="card-body text-center">
+                <h6 class="card-title">Activity Sample Website</h6>
+                <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img class="img-fluid" alt="project-img" src="images/project-image3.png">
+              <div class="card-body text-center">
+                <h6 class="card-title">Activity Sample Website </h6>
+                <p class="card-text text-secondary">HTML/CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img class="img-fluid" alt="portfolio-img"src="images/project-image4.png">
+              <div class="card-body text-center">
+                <h6 class="card-title">Activity Sample Website</h6>
+                <p class="card-text text-secondary">HTML/CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img class="img-fluid" alt="project-img" src="images/project-image5.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Activity Sample Website</h6>
+                <p class="card-text text-secondary">HTML/CSS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+<!---End of Section----->
+
+<!----Tools---->
+<section id="tools" class="tools mb-5 " href="#tools">
+  
+                <!-- Other Tools Section Start -->
+                <h3 class="text-center mt-3"> Tools</h3>
+
+                <div id="other-tools" class="d-flex flex-md-column">
+                    <div  class="d-md-flex justify-content-center"id="tools-1">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                        <img width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div class="d-md-flex justify-content-center" id="tools-2">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+                <!-- Other Tools Section End -->
+                
+            </div>
+        </section>
 
 
 
+    <!--Contact Section-->
+
+    <section id="contact" class="contact">
+      <div class="container" href="#contact">
+
+        <div class="contact-details">
+          <h2 class="text-center mt-5" >GET IN TOUCH</h2>
+          <p>Thank you for taking the time to explore my portfolio. If you have any questions, feedback, or project inquiries, please don't hesitate to reach out. I'm here to connect and collaborate with you..</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch ">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h5>Location:</h5>
+                <p>Bacolod City, Negros Occidental</p>
+              </div>
+
+              <div class="email">
+                <h5>Email:</h5>
+                <p>cabigoarnel@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <h5>Call:</h5>
+                <p>+63 947 804 5914</p>
+              </div>
+
+              <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Bacolod%20City+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+
+          </div>
+          <!----contact forn-->
+<div class="form-box ml-lg-6">
+  <h1>Website Contact Form</h1>
+  <p> Feel free to contact me for inquiries</p>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" id="name" type="text" name="Name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" id="email" type="email" name="Email">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" name="Message"></textarea>
+    </div>
+    <input class="btn btn-primary  " type="submit" value="Submit" />
+    </div>
+  </form>
+</div>
+
+</section>
 
 <!---Bootstrap 4.6 JS Script----->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
