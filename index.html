@@ -3,250 +3,226 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Capstone Development Project</title>
+  <title>Capstone Portfolio</title>
 
-  <!---External CSS---->
-  <link rel="stylesheet" href="index.css">
+  <!-- CSS and Boostrap Link -->
+  <link rel="stylesheet" type="text/css" href="./index.css">
 
-  <!-----Bootstrap Link----->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!--Google Fonts--->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-
-
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <body>
 
-   <body>
-    <!-- Navbar  -->
-    <header class=" fixed-top">
-      <nav class=" d-flex container-xxl navbar navbar-expand-lg py-3">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold fs-3 text-white" href="#">NLCBGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#landing">HOME</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#project">PROJECTS</a>
-              </li>
-                 <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#tools">TOOLS</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link px-lg-4 rounded" href="#contact">CONTACT</a>
-              </li>
-          </div>
-           <form class="form-inline ml-auto">
-        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        </div>
-      </nav>
-    </header>
+  <!--Navbar-->
 
-    <!----Landing Page---->
-    <section class="home mt-5" id="landing">
-      <div class="container" >
-        <div class="row">
-          <div class="col-lg-6 "> 
-          <div class="home-container" href="#landing">
-            <div class="home-content mr-auto">
-            <h5 class="heading-sm">Hi I'm</h5>
-            <h2 class="heading-lg">Nel <span> Cabigo </span></h2>
-             <h5 class="heading-md">Programmer | Full Stack Web Developer</h5>
-             <p class="description ml-auto"> I am a web developer based in Bacolod City, Negros Occidental.</p>
-             <a href="#project" class="btn-home btn-2 text-white">See More</a>
-             <a href="#contact" class="btn-home text-white">Hire Me</a>
 
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 ml-auto mt-5 mb-5">
-        <img src="images/img1.png" class=" 
-        mt-5 mt-md-3 rounded-circle" alt="home-img">
+  <header class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a class="navbar-brand" href="#" id="logo">NLCBGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#landing">HOME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">PROJECT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tools">TOOLS</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+  <!--End of Navbar -->
+
+
+
+  <!--Banner Section -->
+  <section id="landing" href="#landing"class="container-fluid" >
+    <div class="row">
+      <div class="col-xl-6" id="landing-description">
+        <h3>Hello, I'm</h3>
+        <h1>Nel <span>Cabigo </span></h1>
+        <p>Programmer | Full Stack Developer</p>
+       <a href="#project" class="btn-home btn-2 text-white rounded-pill">See More</a>
+       <a href="#contact" class="btn-home text-white rounded-pill">Hire Me</a>
         
       </div>
+    </div>
+  </section>
 
-      </div>
-      </div>
+<!---Profile Section---->
+<section class="container-fluid" id="profile">
 
-    </section>
+                <div class="row ml-auto">
+                    <div class="col-lg-6" >
+                        <h2> About Me</h2>
+                        <p>Welcome to my corner of the digital world! I'm Arnel Cabigo, a passionate IT graduate with a relentless drive to become a Full Stack Developer. Here's a little insight into my journey and what you can expect from me.</p>
 
-   <!--  Projects Section -->
-  
-      <section id="project"class="container py-5 " >
-      <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center justify-content-center" href="#project">
-          <h2>PROJECTS</h2>
-          <h5 class="text-secondary fs-md fw-normal py-2 fst-italic">Collections of past projects from Zuitt Bootcamp</h5>
+                        <p>My heart beats for Full Stack Development. This multifaceted domain fascinates me because it allows me to seamlessly blend my knowledge of both front-end and back-end technologies. I believe that mastering the full stack is like mastering a symphony, where every component harmonizes to create something beautiful.</p>
+                        <p>Thank you for visiting my digital home. I'm excited to have you on board as we embark on this exhilarating adventure in the world of IT and Full Stack Development. Stay curious, stay inspired, and let's code our way to a brighter future!</p>
+                    </div>
+                    <div class="col-lg-6 ml-auto mt-5 mb-5 " >
+                        <img src="images/profile-image.jpg">
+                    </div>
+                </div>
+            </div>
+
+</section>
+
+
+
+    <!--Project Section---->
+  <section id="project" href="#project">
+    <div id="project-description" href="#project">
+      <h1 class="text-center">PROJECT</h1>
+      <p class="text-center">Collections of projects that I have accomplished in the past months </p>
+    </div>
+
+    <div class="row justify-content-center align-items-center" id="project-photos"> 
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image1.jpg" class="img-fluid" alt="project-image">
         </div>
-        <div class="row mt-5 justify-content-center align-items-center">
-          <div class="col-lg-4 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img  class="img-fluid" alt="projects-img" src="images/project-image1.png">
-              <div class="card-body text-center">
-                <h6 class="card-title">Activity Sample Website</h6>
-                <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img class="img-fluid" alt="project-img" src="images/project-image2.png" >
-              <div class="card-body text-center">
-                <h6 class="card-title">Activity Sample Website</h6>
-                <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
-              </div>
-            </div>
-          </div>
-         
-          <div class="col-lg-4 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img class="img-fluid" alt="project-img" src="images/project-image3.png">
-              <div class="card-body text-center">
-                <h6 class="card-title">Activity Sample Website </h6>
-                <p class="card-text text-secondary">HTML/CSS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img class="img-fluid" alt="portfolio-img"src="images/project-image4.png">
-              <div class="card-body text-center">
-                <h6 class="card-title">Activity Sample Website</h6>
-                <p class="card-text text-secondary">HTML/CSS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img class="img-fluid" alt="project-img" src="images/project-image5.png" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">Activity Sample Website</h6>
-                <p class="card-text text-secondary">HTML/CSS</p>
-              </div>
-            </div>
-          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image2.jpg" class="img-fluid" alt="project-image">
         </div>
-      </div>      
-    </section>
-<!---End of Section----->
-      <!----Tools Section----->
+      </div>
 
-              <section id="tools" href="#tools">
-              <h1 class="text-center">TOOLS</h1>
-              <div class=" d-flex justify-content-center">
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image3.jpg" class="img-fluid" alt="project-image">
+        </div>
+      </div>
 
-          <div id="tools" class=" d-sm-inline-block ">
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image4.jpg" class="img-fluid" alt="project-image">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image5.jpg" class="img-fluid" alt="project-image">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 card-wrapper">
+        <div class=" card" id="card">
+          <img src="images/project-image6.jpg" class="img-fluid" alt="project-image">
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <!---End of Project Section-->
+
+
+
+
+<!--Tools Section---->
+
+<section id="tools" href="#tools">
+    <div id="project-description" href="#tools">
+      <h1 class="text-center">TOOLS</h1>
+      <p class="text-center">|Tools that I have utilized in building websites| </p>
+
+  <div class="d-flex justify-content-center">
+  <div id="tools" class=" d-sm-inline-block ">
             <h5 class="text-center">FRONT END</h5>
                   <div  class="d-md-flex col-md-4">
-                                <img width="150" src="images/logo-html5.png"/>
-                                <img width="150" src="images/logo-css3.png"/>
+                                <img src="images/logo-html5.png"/>
+                                <img src="images/logo-css3.png"/>
                             </div>
                             <div  class="d-md-flex col-md-4">
-                                <img width="150" src="images/logo-bootstrap.png"/>
-                                <img width="150" src="images/logo-javascript.png"/>
+                                <img src="images/logo-bootstrap.png"/>
+                                <img src="images/logo-javascript.png"/>
                               </div>
                     </div>
-                   <div id="tools" class=" d-sm-inline-block">
+                       <div id="tools" class=" d-sm-inline-block">
                      <h5 class="text-center">MERN</h5>
                   <div  class="d-md-flex col-md-4">
-                                <img width="150" src="images/logo-mongodb.png"/>
-                                <img width="150" src="images/logo-nodejs.png"/>
+                                <img  src="images/logo-mongodb.png"/>
+                                <img  src="images/logo-nodejs.png"/>
                               </div>
                               <div  class="d-md-flex">
-                                <img width="150" src="images/logo-expressjs.png"/>
-                                <img width="150" src="images/logo-react.png"/>
+                                <img  src="images/logo-expressjs.png"/>
+                                <img src="images/logo-react.png"/>
                               </div>
 
                     </div>
                     <div id="tools" class=" d-sm-inline-block">
-                       <h5 class="text-center">Other Tools</h5>
+                       <h5 class="text-center">OTHER TOOLS</h5>
                   <div  class="d-md-flex col-md-4 ">
-                                <img width="150" src="images/logo-heroku.png"/>
-                                <img width="150" src="images/logo-git.png"/>
+                                <img src="images/logo-heroku.png"/>
+                                <img src="images/logo-git.png"/>
                               </div>
                               <div  class="d-md-flex">
 
-                                <img width="150" src="images/logo-postman.png"/>
-                                <img width="150" src="images/logo-sublime-text-3.png"/>
+                                <img src="images/logo-postman.png"/>
+                                <img  src="images/logo-sublime-text-3.png"/>
                               </div>
-                          
-                    </div>
-      
-              </div>
+                       </div>
+                </div>
             </section>
+          <!--End of Tools Section-->
 
 
 
-    <!--Contact Section-->
 
-    <section id="contact" class="contact ">
-      <div class="container" href="#contact">
-        <h1 class="text-center mt-5"> </h1>
-
-        <div class="contact-details">
-          <h2 class="text-center mt-5" >GET IN TOUCH</h2>
-          <p>Thank you for taking the time to explore my portfolio. If you have any questions, feedback, or project inquiries, please don't hesitate to reach out. I'm here to connect and collaborate with you..</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch ">
-            <div class="info">
-              <div class="address">
-                <h5>LOCATION</h5>
-                <p>Bacolod City, Negros Occidental</p>
-              </div>
-
-              <div class="email">
-                <h5>EMAIL ADDRESS</h5>
-                <p>cabigoarnel@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <h5>CALL</h5>
-                <p>+63 947 804 5914</p>
-              </div>
-
-              <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Bacolod%20City+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
+<!--Contact Section----->
 
 
-          </div>
-          <!----contact form-->
-              <div class="form-box ml-lg-6">
-                <h1>My Website's Contact Form</h1>
-                <p> Feel free to contact me for inquiries</p>
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input class="form-control" id="name" type="text" name="Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" id="email" type="email" name="Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="Message"></textarea>
-                  </div>
-                  <input class="btn btn-primary  " type="submit" value="Submit" />
-                  </div>
-                </form>
-              </div>
+  <section id="contact" class="container-fluid" href="#contact">
+    <div class="row">
+      <div class="col-xl-6" id="contact-image">
+        <img src="images/contact-photo.jpg">
 
-              </section>
-             
+      </div>
 
-              <!---Bootstrap 4.6 JS Script----->
-              <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-              </body>
-              </html>
+      <div class="col-xl-6" id="contact-form" href="#contact"> 
+        <h1>GET IN TOUCH</h1>
+        <p>Thank you for taking the time to explore my portfolio. I'm here to connect and collaborate with you</p>
+        <form id="form">
+          <label for="name">Name</label>
+          <input type="name" name="name" id="name" placeholder="Name">
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Email">
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Message" rows="10"></textarea>
+        </form>
+
+        <button class="rounded-pill" id="contact-button">Submit</button>
+      </div>
+    </div>
+  </section>
+  <!--End of Contact Section-->
+
+
+  <footer class="container-fluid d-flex justify-content-center align-items-center">
+    <p>2023 | Capstone Project | All rights reserved.</p>
+  </footer>
+
+  <!--JS Link  -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  
+</body>
+</html>

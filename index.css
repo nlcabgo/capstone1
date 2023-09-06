@@ -1,129 +1,262 @@
-
-:root {
-  --white-color: #fff;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
- 
-
-}
-header{
-	background-color: #202A44;
 }
 
-body {
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+#navbar {
+  background-color: #202A44!important;
 }
 
-.nav-item .nav-link {
-  color: var(--white-color);
-
+#logo {
+color: white;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 24px; /* 100% */
 }
-.nav-link{
+
+#navbarNav {
+  margin-right: 5rem;
+}
+
+#navbarNav ul {
+  font-family: Montserrat;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#navbarNav a {
   color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
+  margin-left: 3rem;
 }
-.nav-link:hover{
+
+#logo img {
+  width: 50px;
+}
+
+
+
+#landing {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./images/banner.jpg);
+  padding: 14% 17%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0rem;
+}
+
+#landing-description {
   color: white;
-  background-color: orange;
 }
-.navbar-brand{
+
+#landing-description h1 {
+  font-size: 4rem;
+  font-style: normal;
   font-weight: 800;
+  line-height: 4.5rem; /* 112.5% */
+  letter-spacing: -0.08rem;
+  margin-bottom: 1rem;
+  max-width: 17ch;
+}
+#landing-description span{
+ color: ;#202A44;
+}
+
+#landing-description p{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 125% */
+  margin-bottom: 2rem;
+  max-width: 35ch;
+}
+
+#landing-description a {
+  background-color:  #202A44;
+  padding: 0.75rem 1.75rem;
+  color: white;
+  border: none;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#profile{
+ background: #003363;
+padding: 12%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#profile h2{
+
+  color: #FFF;
+  font-family: Montserrat;
   font-size: 2rem;
-  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 125% */
+
+  max-width: 35ch;
+  margin-bottom: 2rem;
 }
-.landing{
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  object-fit: !important;
-  padding: 2rem;
+#profile p{
 
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+text-align: justify;
 
 
 }
-.home-container{
+#profile img{
+
+  width: 400px;
+  height: auto;
+}
+
+#project{
+  padding: 10.5% 14%;
+}
+
+#project-description {
+  margin-bottom: 2rem;
+}
+
+#project-description h1 {
+  color:#202A44;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+#project-description p {
+  max-width: 65ch;
+  color: #202A44;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#card{
+  margin-top: 2rem;
+}
+#tools{
+
+  padding: 7% 7%;
+}
+#tools img{
+  width: 150;
+
+}
+#tools h5{
+  color:#202A44;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+#contact-image{
+  padding: 0;
+}
+
+#contact-image img {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.home-content p{
-  font-weight: 400;
-  margin: 0.7rem;
-}
-.heading-sm{
-  font-size: 25px;
-  font-weight: 600;
-  margin: 10px 0px;
-  color: gray;
-}
-.heading-lg{
-  font-weight: 800;
-  font-size: 60px;
-  margin: 22px 0px;
-  letter-spacing:1px ;
-  margin-top: 22px;
-}
-.heading-lg span{
-  color: #202A44;
-}
-.heading-md{
-  font-size: 20px;
-  font-weight: 500;
-  color: gray;
-  margin-top: -13px;
-
-}
-.btn-home{
-  display: inline-block;
-  text-decoration: none;
-  background-color:#202A44 ;
-  padding: 12px 32px;
-  border-radius: 50px;
-  color: white;
-  margin: 26px 4px;
-  font-weight: 600;
-}
-.btn-2{
-    background-color: orange;
-}
-#skills i {
-  height: 100px;
-  width: 100px;
-}
-.projects{
-  padding-bottom: 60px;
-}
-
-#project img{
-  height: 300px;
   object-fit: cover;
-
 }
 
+#contact-form {
+  background: #003363;
+  padding: 5rem 5rem;
+}
 
-/*-------Contact-----*/
-.contact{
-  padding-bottom: 130px;
+#contact-form h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2rem ;
 }
-.contact .info{
-  padding:30px;
-  background:white;
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+
+#contact-form p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2.5rem;
 }
-.form-box{
-  padding: 30px;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  background:white;
+
+#form {
+  display: flex;
+  flex-direction: column;
 }
-.input, text-area{
-  width: 100%;
+
+#form label {
+  color: white;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#form input, #form textarea {
+  padding: 1rem;
+  border: 1px solid white;
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+#contact-button {
+  background-color: #12C6FF;
+  color: var(--button-text-button-primary-text, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 120% */
+  border: none;
+  padding: 1rem 2.25rem;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #202A44;
+  width: 105rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
