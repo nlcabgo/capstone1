@@ -4,10 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-@media(max-width:500px){
-    header{
-      margin-top:100px;
-    }
+
 
 #navbar {
   background-color: #202A44!important;
